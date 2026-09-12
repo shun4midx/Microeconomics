@@ -1,0 +1,15 @@
+*.aux
+*.bcf
+*.fdb_latexmk
+*.fls
+*.listing
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.bbl*
+*.blg
+*.xdv
+Slides/
+LaTeX-Template/
+*SAVE-ERROR

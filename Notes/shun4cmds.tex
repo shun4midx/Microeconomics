@@ -1,0 +1,52 @@
+\newcommand{\bs}{\textbackslash}
+\newcommand{\boxtxt}[1]{\boxed{\text{#1}}}
+\newcommand{\op}[1]{\operatorname{#1}}
+\newcommand{\OPT}{\mathrm{OPT}}
+
+\tcbuselibrary{listings}
+\newtcblisting{shuncode}[1][]{
+  listing only,
+  listing options={
+      language=C,
+      basicstyle=\ttfamily\small,
+      keywordstyle=\color{blue},
+      commentstyle=\color{green!50!black},
+      stringstyle=\color{red}
+  },
+  colframe=cyan!80!black,
+  colback=cyan!10,
+  title={#1},
+  enhanced,
+}
+
+\newtcblisting{shuncmd}[1][]{
+  listing only,
+  listing options={
+    language=bash,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    commentstyle=\color{green!50!black},
+    stringstyle=\color{red},
+    breaklines=true
+  },
+  colframe=cyan!80!black,
+  colback=cyan!10,
+  title={#1},
+  enhanced,
+}
+
+\newcommand{\shunsc}[1]{%
+  \textsf{\textsc{#1}}
+}
+
+\newcommand{\shuncal}[1]{%
+  \mathsf{\mathcal{#1}}
+}
+
+\newcommand{\hn}{
+  \vspace{0.5em}
+}
+
+\newcommand{\nl}{
+  \vspace{1.0em}
+}
