@@ -5,6 +5,8 @@ Shun's Notes for Principles of Microeconomics with Recitation
 
 For convenience, I also upload PDFs of notes and flashcards in individual chapters, as can be found by clicking on the respective PDF and downloading in [`Notes/indiv_chapters`](Notes/indiv_chapters).
 
+Furthermore, I upload PDFs of the notes and flashcards corresponding to the relevant chapters required for each quiz or exam in [`Notes/exam_review`](Notes/exam_review).
+
 ## Color Schemes
 It is not a secret I like the [Pink/Purple/Blue color scheme](https://github.com/shun4midx/Pink-Purple-Blue-VSCode-Theme). As a result, my more recent LaTeX files for notes all follow this aesthetic, typically with **blue boxes for headings**, **purple boxes for subheadings**, and **pink boxes for important concepts**. I also typically use yellow highlighter and very rarely green if there is too much yellow. 
 
